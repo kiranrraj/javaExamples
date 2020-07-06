@@ -1,4 +1,4 @@
-public class ArrayJava {
+public class Array_Java {
     public static void main(String args[]) {
         int[] emptyArray = new int [3];
         System.out.println(emptyArray[0]); // Default value 0
@@ -12,6 +12,7 @@ public class ArrayJava {
         
 
         for( int num : nums) {
+            System.out.println("Elements of array "+ num);
             sum = sum + num;
         }
 
